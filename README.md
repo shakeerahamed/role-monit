@@ -17,3 +17,6 @@ eg. user_home=/home/centos
 To use host IP as a variable for file copies.
 {{ ansible_default_ipv4.address }}
 --> use this in template section in monitrc file to change IP according to node
+
+ # with_fileglob module ansible
+ It useful when we need to add multiple files to the dest. 
